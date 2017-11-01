@@ -205,9 +205,9 @@ label{
 }
 
 @media screen and (max-width: 980px) {
-	body{  
+/*	body{  
 		background-color: blue;
-	}
+	}*/
 
 	.wrapper{
 		max-width: 800px;
@@ -235,9 +235,9 @@ label{
 
 
 @media screen and (max-width: 768px) {
-	body{
+/*	body{
 		background-color: red;
-	}
+	}*/
 	.wrapper{
 		max-width: 700px;
 	}
@@ -262,9 +262,9 @@ label{
 }
 
 @media screen and (max-width: 640px) {
-	body{
+/*	body{
 		background-color: green;
-	}
+	}*/
 	.wrapper{
 		max-width: 350px;
 	}
