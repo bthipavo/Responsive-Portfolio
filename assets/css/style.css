@@ -266,24 +266,28 @@ label{
 		background-color: green;
 	}
 	.wrapper{
-		max-width: 600px;
+		max-width: 500px;
 	}
 	.entirecontentarea{
-		max-width: 600%;
+		max-width: 500%;
 	}
 
 	#mainsectioncontent{
 		clear: both;
-		max-width: 500px;
+		max-width: 400px;
 		margin: 0 auto;
 		margin-bottom: 10px;
 	
 	} 
 	#sidebar{
 		clear: both;
-		width: 500px;
+		width: 400px;
 		margin: 0 auto;
 		margin-top: 10px;
 
+	}
+
+	#container{
+		width:200px;
 	}
 }
