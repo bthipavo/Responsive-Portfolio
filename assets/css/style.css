@@ -266,28 +266,32 @@ label{
 		background-color: green;
 	}
 	.wrapper{
-		max-width: 500px;
+		max-width: 350px;
 	}
 	.entirecontentarea{
-		max-width: 500%;
+		max-width: 350%;
 	}
 
 	#mainsectioncontent{
 		clear: both;
-		max-width: 400px;
+		max-width: 300px;
 		margin: 0 auto;
 		margin-bottom: 10px;
 	
 	} 
 	#sidebar{
 		clear: both;
-		width: 400px;
+		width: 300px;
 		margin: 0 auto;
 		margin-top: 10px;
 
 	}
 
 	#container{
-		width:200px;
+		width:150px;
+	}
+
+	#container2{
+		width: 150px;
 	}
 }
