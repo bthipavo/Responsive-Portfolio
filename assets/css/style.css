@@ -234,14 +234,14 @@ label{
 
 	#mainsectioncontent{
 		/*clear: both;*/
-		max-width: 700px;
+		width: 700px;
 		margin: 0 auto;
 		margin-bottom: 10px;
 	
 	} 
 	#sidebar{
 		clear: both;
-		max-width: 700px;
+		width: 700px;
 		margin: 0 auto;
 		margin-top: 10px;
 
