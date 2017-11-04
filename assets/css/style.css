@@ -84,9 +84,12 @@ body {
 	width: 100%;
 }
 
+.float-left{
+	float: left;
+}
 #mainsectioncontent{
 	float: left;
-	max-width: 650px;
+	width: 650px;
 	background-color: #ffffff;
 	/*border-color: #e5e5e5;*/
 	border: solid;
@@ -135,6 +138,7 @@ input[type=text], select, textarea{
 	height: 60px;
 	flex-shrink: 0;
 	text-align: center;
+	padding-top: 30px;
 
 }
 
@@ -154,6 +158,10 @@ a:link, a:visited{
 	color: #cdcdcd;
 }
 
+h1{
+	margin-top: 40px;
+	font-size: 30px;
+}
 
 h2 {
 	position: absolute;
@@ -165,6 +173,7 @@ h2 {
 	background-color: #4aaaa5;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	font-size: 20px;
 }
 
 .portfolioimg{
@@ -204,13 +213,19 @@ label{
 	display: table;
 }
 
+.clearfix {
+	content:"";
+	clear: both;
+	display: table;
+}
+
 @media screen and (max-width: 980px) {
 /*	body{  
 		background-color: blue;
 	}*/
 
 	.wrapper{
-		max-width: 800px;
+		max-width: 980px;
 	}
 
 	.entirecontentarea{
@@ -218,7 +233,7 @@ label{
 	}
 
 	#mainsectioncontent{
-		clear: both;
+		/*clear: both;*/
 		max-width: 700px;
 		margin: 0 auto;
 		margin-bottom: 10px;
@@ -226,7 +241,7 @@ label{
 	} 
 	#sidebar{
 		clear: both;
-		width: 700px;
+		max-width: 700px;
 		margin: 0 auto;
 		margin-top: 10px;
 
@@ -239,7 +254,7 @@ label{
 		background-color: red;
 	}*/
 	.wrapper{
-		max-width: 700px;
+		max-width: 768px;
 	}
 	.entirecontentarea{
 		max-width: 700px;
@@ -266,7 +281,7 @@ label{
 		background-color: green;
 	}*/
 	.wrapper{
-		max-width: 350px;
+		max-width: 640px;
 	}
 	.entirecontentarea{
 		max-width: 350%;
